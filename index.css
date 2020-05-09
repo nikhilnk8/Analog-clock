@@ -14,7 +14,9 @@ body{
     background-color:white;
     border-radius: 50%;
     position: relative;
-    border: 5px solid blueviolet;
+    border: 2px solid grey;
+
+    box-shadow: 0 0 10px 3px rgb(223, 222, 222);
 
 }
 
