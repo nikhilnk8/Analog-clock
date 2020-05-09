@@ -14,6 +14,8 @@ body{
     background-color:white;
     border-radius: 50%;
     position: relative;
+    border: 5px solid blueviolet;
+
 }
 
 .clock .dot{
@@ -24,6 +26,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: 10;
     transform: translate(-50%, -50%);
 }
 
@@ -35,6 +38,8 @@ body{
     height: 100%;
     transform: rotate(var(--rotation));
     font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategray;
 }
 
 .clock .number1{--rotation: 30deg;}
